@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	background-color: black;
+}
+
+.head {
+	color: #fff;
+	margin: 10px;
+	padding: 10px;
+	background: transparent;
+	text-transform: capitalize;
+	font-weight: 700;
+	font-family: 'Dancing Script', cursive;
+	font-size: 42px;
+	padding-bottom: 40px;
+	position: relative;
+}
+.head::after {
+	position: absolute;
+	content: '';
+	width: 80px;
+	height: 3px;
+	background: rgb(185, 51, 18);
+	left: 50%;
+	transform: translateX(-50%);
+	top: 68px;
+}
+.lightbox-img:hover {
+	border: 2px solid #fff;
+}
+.lightbox-img2:hover {
+	border: 2px dotted rgb(224, 10, 10);
+}
